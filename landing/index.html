@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="description"
+            content="CipherMint — Generate unbreakable passwords instantly. Free, open-source, and 100% offline."
+        />
+        <title>CipherMint — Secure Password Generator</title>
+        <link
+            rel="icon"
+            href="../assets/icons/favicon.svg"
+            type="image/svg+xml"
+        />
+        <link rel="stylesheet" href="landing.css" />
+    </head>
+    <body>
+        <!-- Navigation -->
+        <nav class="nav">
+            <div class="nav-inner">
+                <a href="#" class="nav-logo">
+                    <svg
+                        width="28"
+                        height="28"
+                        viewBox="0 0 32 32"
+                        fill="none"
+                        aria-hidden="true"
+                    >
+                        <rect width="32" height="32" rx="8" fill="url(#nlg)" />
+                        <path
+                            d="M16 7l7 4v10l-7 4-7-4V11l7-4z"
+                            stroke="#fff"
+                            stroke-width="1.5"
+                            fill="none"
+                        />
+                        <circle cx="16" cy="16" r="3" fill="#fff" />
+                        <defs>
+                            <linearGradient
+                                id="nlg"
+                                x1="0"
+                                y1="0"
+                                x2="32"
+                                y2="32"
+                            >
+                                <stop stop-color="#00e59b" />
+                                <stop offset="1" stop-color="#0077ff" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                    <span>CipherMint</span>
+                </a>
+                <div class="nav-links">
+                    <a href="#features">Features</a>
+                    <a href="#preview">Preview</a>
+                    <a href="#security">Security</a>
+                    <a href="../index.html" class="nav-cta">Open App →</a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero -->
+        <section class="hero" id="hero">
+            <div class="hero-bg-glow"></div>
+            <div class="hero-content">
+                <div class="hero-badge">
+                    🔐 Open Source &middot; 100% Offline
+                </div>
+                <h1 class="hero-title">
+                    Generate
+                    <span class="gradient-text">Unbreakable</span> Passwords
+                </h1>
+                <p class="hero-subtitle">
+                    CipherMint is a modern, lightning-fast password generator
+                    that runs entirely in your browser. No servers, no tracking,
+                    no compromises.
+                </p>
+                <div class="hero-actions">
+                    <a href="../index.html" class="btn-primary"
+                        >Launch Generator</a
+                    >
+                    <a href="#features" class="btn-secondary"
+                        >Explore Features ↓</a
+                    >
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <strong>256-bit</strong><span>Entropy Support</span>
+                    </div>
+                    <div class="stat">
+                        <strong>0 B</strong><span>Data Sent</span>
+                    </div>
+                    <div class="stat">
+                        <strong>100%</strong><span>Client-Side</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features -->
+        <section class="features" id="features">
+            <div class="section-inner">
+                <h2 class="section-title">Why CipherMint?</h2>
+                <p class="section-subtitle">
+                    Everything you need to generate and manage strong
+                    credentials — right in your browser.
+                </p>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">🔑</div>
+                        <h3>Password Generator</h3>
+                        <p>
+                            Configurable length, character sets, exclusions, and
+                            presets. Generate multiple passwords at once.
+                        </p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">📝</div>
+                        <h3>Passphrase Generator</h3>
+                        <p>
+                            Word-based passphrases with custom separators,
+                            casing styles, and optional numbers/symbols.
+                        </p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🔢</div>
+                        <h3>PIN &amp; API Keys</h3>
+                        <p>
+                            Generate secure PINs and API keys in standard
+                            formats like XXXX-XXXX-XXXX.
+                        </p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">📊</div>
+                        <h3>Strength Analyzer</h3>
+                        <p>
+                            Real-time scoring based on entropy, diversity,
+                            length, and pattern detection.
+                        </p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">💡</div>
+                        <h3>Smart Suggestions</h3>
+                        <p>
+                            Actionable tips to improve your password — add
+                            symbols, increase length, avoid patterns.
+                        </p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🌙</div>
+                        <h3>Dark &amp; Light Themes</h3>
+                        <p>
+                            Beautiful glassmorphism design with theme
+                            persistence via localStorage.
+                        </p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">📜</div>
+                        <h3>History &amp; Favorites</h3>
+                        <p>
+                            Save, review, and export your generated passwords.
+                            Favorites for quick access.
+                        </p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">⚡</div>
+                        <h3>Instant &amp; Offline</h3>
+                        <p>
+                            Zero dependencies. Works offline. Loads instantly.
+                            No tracking whatsoever.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Mini Preview -->
+        <section class="preview" id="preview">
+            <div class="section-inner">
+                <h2 class="section-title">Try It Now</h2>
+                <p class="section-subtitle">
+                    Interactive mini-preview — click to generate a password
+                    instantly.
+                </p>
+                <div class="preview-card">
+                    <div class="preview-output" id="preview-output">
+                        Click Generate ↓
+                    </div>
+                    <div class="preview-strength">
+                        <div class="preview-bar-track">
+                            <div
+                                class="preview-bar-fill"
+                                id="preview-bar"
+                            ></div>
+                        </div>
+                        <span id="preview-label" class="preview-label">—</span>
+                    </div>
+                    <button
+                        class="btn-primary preview-btn"
+                        id="preview-generate"
+                    >
+                        ⚡ Generate Password
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Security Matters -->
+        <section class="security" id="security">
+            <div class="section-inner">
+                <h2 class="section-title">Why Security Matters</h2>
+                <div class="security-grid">
+                    <div class="security-item">
+                        <div class="security-number">81%</div>
+                        <p>
+                            of data breaches are caused by weak or reused
+                            passwords.
+                        </p>
+                    </div>
+                    <div class="security-item">
+                        <div class="security-number">10B+</div>
+                        <p>
+                            leaked credentials available on the dark web right
+                            now.
+                        </p>
+                    </div>
+                    <div class="security-item">
+                        <div class="security-number">&lt;1s</div>
+                        <p>
+                            to crack a 6-character password with modern
+                            hardware.
+                        </p>
+                    </div>
+                    <div class="security-item">
+                        <div class="security-number">∞</div>
+                        <p>
+                            years to brute-force a 20+ char password with
+                            symbols.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="cta-section">
+            <div class="section-inner cta-inner">
+                <h2>Ready to Secure Your Accounts?</h2>
+                <p>Start generating strong, unique passwords in seconds.</p>
+                <a href="../index.html" class="btn-primary btn-large"
+                    >Open CipherMint →</a
+                >
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="landing-footer">
+            <div class="section-inner footer-inner">
+                <div class="footer-logo">
+                    <svg
+                        width="22"
+                        height="22"
+                        viewBox="0 0 32 32"
+                        fill="none"
+                        aria-hidden="true"
+                    >
+                        <rect width="32" height="32" rx="8" fill="url(#flg)" />
+                        <path
+                            d="M16 7l7 4v10l-7 4-7-4V11l7-4z"
+                            stroke="#fff"
+                            stroke-width="1.5"
+                            fill="none"
+                        />
+                        <circle cx="16" cy="16" r="3" fill="#fff" />
+                        <defs>
+                            <linearGradient
+                                id="flg"
+                                x1="0"
+                                y1="0"
+                                x2="32"
+                                y2="32"
+                            >
+                                <stop stop-color="#00e59b" />
+                                <stop offset="1" stop-color="#0077ff" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                    <span>CipherMint</span>
+                </div>
+                <p>
+                    &copy; 2026 CipherMint. Open source. 100% client-side. No
+                    data leaves your browser.
+                </p>
+            </div>
+        </footer>
+
+        <script src="landing.js"></script>
+    </body>
+</html>
